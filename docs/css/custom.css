@@ -1,0 +1,5 @@
+/* Apply justified alignment to all paragraph text and list items within the main content */
+main p,
+main li {
+    text-align: justify;
+}

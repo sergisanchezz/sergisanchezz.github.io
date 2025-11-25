@@ -1,5 +1,6 @@
-+++
-date = '2025-11-25T14:46:36+01:00'
-draft = true
-title = 'News'
-+++
+---
+title: "News"
+date: 2025-11-25
+slug: "news"
+draft: false
+---
