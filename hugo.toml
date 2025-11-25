@@ -1,0 +1,5 @@
+baseURL = "https://sergisanchezz.github.io/"
+title = "Sergi Sanchez Orvay"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+publishDir = "docs"
