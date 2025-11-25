@@ -1,0 +1,30 @@
+{{ define "body" }}
+    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ end }}
+
+{{ define "main" }}
+    <div class="content-center">
+        <main>
+            <div>
+                {{ if .Site.Params.Portrait.Path }}
+                <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+                {{ end }}
+
+                <div class="home-image" style="display: flex; justify-content: center; margin-bottom: 20px;">
+                    <img src="{{ "img/me.jpg" | relURL }}" 
+                         alt="Profile Picture" 
+                         style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid black;">
+                </div>
+                <h1>{{ .Site.Title }}</h1>
+
+                {{ partial "subtitle.html" . }}
+
+                {{- with .Site.Params.social }}
+                    <div>
+                        {{ partial "social-icons.html" . }}
+                    </div>
+                {{- end }}
+            </div>
+        </main>
+    </div>
+{{ end }}
