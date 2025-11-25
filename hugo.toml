@@ -28,7 +28,6 @@ publishDir = "docs"
   logoText = "Sergi Sanchez Orvay"
   logoHomeLink = "/"
 
-
 [menu]
 [[menu.main]]
     identifier = "about"
