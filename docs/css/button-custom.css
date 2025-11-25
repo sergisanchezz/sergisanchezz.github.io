@@ -1,0 +1,28 @@
+.button {
+    /* --- SIZE --- */
+    padding: 10px 20px !important;    /* Controls button size/spacing */
+    font-size: 1.0em !important;      /* Controls font size */
+    
+    /* --- BACKGROUND / COLOR --- */
+    background-color: #000000 !important; /* Change the default background color (e.g., Black) */
+    color: #FFFFFF !important;        /* Change the text color (e.g., White) */
+    border: 2px solid #000000 !important; /* Change the border color */
+
+    /* --- SHAPE / FONT --- */
+    border-radius: 5px !important;    /* Controls corner roundness */
+    text-decoration: none !important; /* Ensures no underline */
+    font-weight: bold !important;
+    display: inline-block !important;
+}
+
+.button:hover {
+    /* Defines appearance when the mouse hovers over the button */
+    background-color: #FFFFFF !important; /* Invert colors on hover */
+    color: #000000 !important; 
+    border: 2px solid #000000 !important;
+}
+
+/* Hides the theme's auto-generated icon */
+.button svg {
+    display: none !important;
+}

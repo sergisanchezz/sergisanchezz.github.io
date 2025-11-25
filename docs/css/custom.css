@@ -1,5 +1,67 @@
-/* Apply justified alignment to all paragraph text and list items within the main content */
-main p,
-main li {
-    text-align: justify;
-}
+/* --- HOMEPAGE STYLES --- */
+
+/* Custom Image Cropping (for circle and size) */
+.home-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+  }
+  
+  /* "Explore my full profile" Link Style */
+  .hometext {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 1.2em;
+  }
+  
+  
+  /* --- DOWNLOAD CV BUTTON STYLES --- */
+  
+  /* Centers the button wrapper */
+  div[style*="text-align: center"] {
+      /* Use the custom container class if you prefer to re-add it: .download-cv-button-container */
+      margin-top: 30px; 
+      margin-bottom: 30px; 
+  }
+  
+  /* Targets the button for full customization */
+  .button {
+      /* Critical: Ensures style is applied and removes underline */
+      display: inline-block !important; 
+      text-decoration: none !important; 
+      
+      /* Modify these properties for the desired look */
+      padding: 10px 20px !important;    /* Size */
+      font-size: 1.0em !important;      /* Font size */
+      font-weight: bold !important;
+      
+      /* Custom Dark Appearance */
+      background-color: #000000 !important; /* Black background */
+      color: #FFFFFF !important;        /* White text */
+      border: 2px solid #000000 !important; /* Black border */
+  
+      /* Shape */
+      border-radius: 5px !important; 
+      cursor: pointer;
+      transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .button:hover {
+      /* Inverted hover effect */
+      background-color: transparent !important; 
+      color: #000000 !important; 
+      border: 2px solid #000000 !important;
+  }
+  
+  /* Hides the theme's auto-generated link icon */
+  .button svg {
+      display: none !important; 
+  }

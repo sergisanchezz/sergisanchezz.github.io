@@ -53,3 +53,8 @@ publishDir = "docs"
     name       = "News"
     url        = "/news/"
     weight     = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
