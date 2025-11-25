@@ -3,3 +3,24 @@ title = "Sergi Sanchez Orvay"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 publishDir = "docs"
+
+[params]
+  homeSubtitle = "Robotics Research Intern at BMW Group (RoboTac Lab) • MSc Robotics Student at ETH Zürich"
+  description  = "Robotics Research Intern at BMW Group (RoboTac Lab) | MSc Robotics at ETH Zürich"
+
+# Social icons
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/sergisanchezz"
+
+[[params.social]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/sergisanchezz/"
+
+[[params.social]]
+  name = "email"
+  url  = "mailto:sergi.sanchez.orvay@gmail.com"
+
+[params.logo]
+  logoText = "sergi.so"
+  logoHomeLink = "/"
