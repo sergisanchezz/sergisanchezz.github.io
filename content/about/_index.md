@@ -27,12 +27,23 @@ My work and interests are focused on pioneering the next generation of **intelli
 ## Experience
 
 ### Robotics Research Intern, BMW Group (RoboTac Lab)
+<div style="display: flex; align-items: center; gap: 10px;">
+    <a href="https://www.bmwgroup.com/" target="_blank">
+        <img src="/img/logos/bmw.png" alt="BMW Logo" style="height: 30px;">
+    </a>
+    <a href="https://www.robotac.eu/" target="_blank">
+        <img src="/img/logos/robotac.png" alt="RoboTac Logo" style="height: 55px;">
+    </a>
+</div>
+
 *Munich, Germany* | *Sept. 2025 – Present*
 * Conducting research at the intersection of embodied intelligence, cross-modal perception, and robotic manipulation.
 * Focused on building robotic foundation models that unify tactile sensing, visual observations, and action sequences into a shared representation using transformers and variational inference in PyTorch.
 * Contributing in parallel to the PHASTRAC project (Horizon Europe), utilizing Oscillatory Neural Networks to advance efficient edge intelligence for robotics.
 
 ### Student Researcher, ETH Zürich (Vision for Robotics Lab)
+<a href="https://ethz.ch/" target="_blank"><img src="/img/logos/eth.png" alt="ETH Logo" style="height: 20px; margin-top: -10px; margin-bottom: -10px;"></a>
+
 *Zürich, Switzerland* | *Feb. 2025 – July 2025*
 * Advanced continuous-time SLAM through Gaussian Belief Propagation (GBP).
 * Focused on analyzing and resolving numerical instabilities of Hyperion, the first open-source continuous-time GBP solver.
@@ -40,6 +51,8 @@ My work and interests are focused on pioneering the next generation of **intelli
 * These improvements yielded millimeter-level trajectory accuracy and runtime reductions of more than 100x compared to Ceres-based Non-Linear-Least-Squares solvers.
 
 ### Robotics Research Intern, Institut de Robòtica i Informàtica Industrial (IRI-CSIC)
+<a href="https://www.iri.upc.edu/" target="_blank"><img src="/img/logos/iri.png" alt="IRI-CSIC Logo" style="height: 35px; margin-top: -10px; margin-bottom: -10px;"></a>
+
 *Barcelona, Spain* | *Sept. 2023 – July 2024*
 * Research on lightweight, interpretable algorithms for motion and feature estimation using event cameras on an agile aerial robotic platform.
 * Developed and implemented methods for event-based optical flow estimation using plane-fitting techniques on surfaces of active events.
@@ -49,15 +62,17 @@ My work and interests are focused on pioneering the next generation of **intelli
 
 ## Education
 
-### MSc in Robotics, Systems and Control
-**ETH Zürich** |
-*Sept. 2024 – Present*
+### MSc in Robotics, Systems and Control 
+<a href="https://ethz.ch/" target="_blank"><img src="/img/logos/eth.png" alt="ETH Logo" style="height: 20px; margin-top: -10px; margin-bottom: -10px;"></a>
+
+**ETH Zürich** | *Sept. 2024 – Present*
 * Pursuing advanced training with a focus on embodied intelligence and robot learning & perception.
 * Strong theoretical foundation in deep learning, robot control, probabilistic AI, and computer vision.
 
-### BSc in Electronic Engineering & Telecommunications
-**Universitat Politècnica de Catalunya** |
-*Sept. 2020 – July 2024*
+### BSc in Electronic Engineering & Telecommunications 
+<a href="https://www.upc.edu/en" target="_blank"><img src="/img/logos/upc.png" alt="UPC Logo" style="height: 50px; margin-top: -20px; margin-bottom: -20px;"></a>
+
+**Universitat Politècnica de Catalunya** | *Sept. 2020 – July 2024*
 * Ranked 1st of the class (GPA: 9/10) with honors in over 30% of courses.
 * Received the Best Academic Transcript Award.
 * Bachelor's thesis: *Event-based egomotion estimation* (Grade: 9.8/10).
