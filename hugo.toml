@@ -20,6 +20,10 @@ publishDir = "docs"
   name = "email"
   url  = "mailto:sergi.sanchez.orvay@gmail.com"
 
+[[params.social]]
+  name = "googlescholar"
+  url  = "https://scholar.google.com/citations?user=C5gvgE8AAAAJ&hl=en"
+
 [params.logo]
   logoText = "Sergi Sanchez Orvay"
   logoHomeLink = "/"
