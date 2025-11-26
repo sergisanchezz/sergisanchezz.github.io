@@ -2,6 +2,7 @@
 title: "Selected Projects"
 date: "2025-11-26"
 slug: "projects"
+layout: "list"
 draft: false
 ---
 
