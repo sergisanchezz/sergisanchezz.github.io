@@ -1,0 +1,68 @@
+{{ define "main" }}
+    <div class="post">
+        <h1 class="post-title">{{ .Title }}</h1>
+        
+        {{ if .Params.start_date }}
+        <div class="post-meta" style="margin-bottom: 20px;">
+            {{ .Params.start_date | time.Format "Jan 2006" }} 
+            – 
+            {{ if .Params.end_date }}
+                {{ .Params.end_date | time.Format "Jan 2006" }}
+            {{ else }}
+                Present
+            {{ end }}
+        </div>
+        {{ end }}
+
+        {{ if .Params.institutions }}
+        <h3 style="margin-top: 25px;">Affiliations</h3>
+        <ul style="list-style-type: none; padding-left: 0;">
+            {{ range .Params.institutions }}
+            <li style="margin-bottom: 5px;">
+                <a href="{{ .url }}" target="_blank">
+                    {{ .name }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+
+        {{ if .Params.authors }}
+        <h3 style="margin-top: 25px;">Contributors</h3>
+        <p>
+            Authors: {{ delimit .Params.authors ", " }}
+            {{ if .Params.supervisors }}
+                <br>Supervisors: {{ delimit .Params.supervisors ", " }}
+            {{ end }}
+        </p>
+        {{ end }}
+
+        <h3 style="margin-top: 30px;">Abstract</h3>
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+
+        <div class="project-links" style="margin-top: 20px;">
+            <h3>Documentation</h3>
+            <ul style="list-style: none; padding: 0;">
+                {{ with .Params.github_link }}
+                    <li>
+                        <a href="{{ . }}" target="_blank">
+                        GitHub Repository
+                        </a>
+                    </li>
+                {{ end }}
+                {{ with .Params.report_link }}
+                    <li>
+                        <a href="{{ . }}" target="_blank">
+                        Download Report (PDF)
+                        </a>
+                    </li>
+                {{ end }}
+                {{/* Add other optional links here */}}
+            </ul>
+        </div>
+
+        <p style="margin-top: 40px;"><a href="/projects/">← Back to Projects List</a></p>
+    </div>
+{{ end }}

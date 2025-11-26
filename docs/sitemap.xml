@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sergisanchezz.github.io/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sergisanchezz.github.io/projects/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sergisanchezz.github.io/about/</loc>
     <lastmod>2025-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sergisanchezz.github.io/</loc>
-    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sergisanchezz.github.io/news/</loc>
-    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sergisanchezz.github.io/projects/</loc>
     <lastmod>2025-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sergisanchezz.github.io/publications/</loc>
@@ -19,6 +19,12 @@
   </url><url>
     <loc>https://sergisanchezz.github.io/categories/</loc>
   </url><url>
+    <loc>https://sergisanchezz.github.io/projects/event-based-egomotion/</loc>
+  </url><url>
+    <loc>https://sergisanchezz.github.io/projects/gbp-for-ctslam/</loc>
+  </url><url>
     <loc>https://sergisanchezz.github.io/tags/</loc>
+  </url><url>
+    <loc>https://sergisanchezz.github.io/projects/depth-guided-world-models/</loc>
   </url>
 </urlset>

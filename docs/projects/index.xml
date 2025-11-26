@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Sergi Sanchez Orvay</title>
+    <title>Selected Projects on Sergi Sanchez Orvay</title>
     <link>https://sergisanchezz.github.io/projects/</link>
-    <description>Recent content in Projects on Sergi Sanchez Orvay</description>
+    <description>Recent content in Selected Projects on Sergi Sanchez Orvay</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sergisanchezz.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event-based Egomotion Estimation</title>
+      <link>https://sergisanchezz.github.io/projects/event-based-egomotion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sergisanchezz.github.io/projects/event-based-egomotion/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Event cameras&lt;/strong&gt; are bio-inspired sensors that detect logarithmic changes in pixel-level illumination, generating events asynchronously with microsecond resolution. This principle provides significant advantages over conventional cameras such as high dynamic range, low latency, and low power consumption, making them ideal for dynamic scenarios and challenging lighting conditions. This work addresses the &lt;strong&gt;egomotion estimation&lt;/strong&gt; of an event camera using a geometric model-based approach and optimization techniques, avoiding the use of learning methods to make it applicable in resource-constrained environments and to deeply understand the problem. The proposed methodology consists of three main blocks: &lt;strong&gt;normal flow estimation&lt;/strong&gt;, &lt;strong&gt;inverse depth estimation&lt;/strong&gt;, and a &lt;strong&gt;robust linear solver&lt;/strong&gt;. The normal flow estimation method is based on fitting local planes on &lt;strong&gt;Surfaces of Active Events (SAEs)&lt;/strong&gt;, while inverse depth is tackled using optimization techniques to align events at a reference timestamp (contrast maximization approach). Finally, a robust linear solver based on the iterative &lt;strong&gt;RANSAC&lt;/strong&gt; method is implemented, using the inverse depth and normal flow estimates to obtain the camera&amp;rsquo;s linear velocity. The method&amp;rsquo;s performance is evaluated through experiments with synthetic and real data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gaussian Belief Propagation for Continuous-Time SLAM</title>
+      <link>https://sergisanchezz.github.io/projects/gbp-for-ctslam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sergisanchezz.github.io/projects/gbp-for-ctslam/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Continuous-Time SLAM (CTSLAM)&lt;/strong&gt; has emerged as a compelling alternative to conventional discrete-time approaches, representing the robot trajectory as a smooth function over time rather than a sequence of fixed-interval poses. This continuous formulation naturally fuses asynchronous, multi-rate sensors without explicit interpolation or aggregation, preserves full measurement fidelity, and yields more consistent estimates. &lt;strong&gt;Gaussian Belief Propagation (GBP)&lt;/strong&gt; offers a distributed inference framework on factor graphs, in which variables and measurements exchange Gaussian messages to perform local, incremental updates. Unlike centralized Non-Linear Least Squares (NLLS) solvers (e.g. Ceres), GBP can exploit parallelism, detect converged nodes, and avoid repeated global relinearization, making it well suited for real-time, large-scale, or collaborative SLAM applications. &lt;strong&gt;Hyperion&lt;/strong&gt;, the first open-source continuous-time GBP solver, demonstrated significant speedups over existing spline implementations, yet exhibited numerical instabilities in visual SLAM scenarios. These failures hinder its deployment as a reliable system. In this work, the root causes of divergence—poorly conditioned landmark covariances and underconstrained spline tails—are systematically analysed and we introduce different regularization strategies within an online CTSLAM pipeline: &lt;strong&gt;diagonal relaxation&lt;/strong&gt; of precision matrices, &lt;strong&gt;Levenberg-Marquardt damping&lt;/strong&gt; in node updates, &lt;strong&gt;message damping&lt;/strong&gt;, and &lt;strong&gt;tail-fixing&lt;/strong&gt; of spline control points. These techniques are evaluated in both a controlled simple problem and a realistic indoor sequence under varying noise and outlier conditions. Results show that the combined regularization scheme yields stable convergence, high accuracy, and robustness to outliers, while Hyperion consistently outperforms Ceres in runtime demonstrating its potential as a deployable continuous-time solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Towards Depth-Guided Self-Supervised World Models</title>
+      <link>https://sergisanchezz.github.io/projects/depth-guided-world-models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sergisanchezz.github.io/projects/depth-guided-world-models/</guid>
+      <description>&lt;p&gt;The aim of the project is to inject geometric information into a self-supervised visual representation learning pipeline by integrating depth signals into the process. We explored different strategies to guide the representation learning, using depth prediction as an auxiliary task or via a feature-level guidance strategy. Specifically, the training pipeline for I-JEPA (Image Joint Embedding Predictive Architecture) was augmented with depth supervision signals. The resulting model learns to predict target patches from given context patches while simultaneously being supervised by ground-truth depth maps. The research involved analyzing the trade-offs of different masking strategies and supervision signals, concluding that the approach is a promising direction for creating robust and geometrically-aware world models for scene prediction in autonomous vehicles.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
