@@ -68,6 +68,7 @@ My work and interests are focused on pioneering the next generation of **intelli
 **ETH Zürich** | *Sept. 2024 – Present*
 * Focus on embodied intelligence and robot learning & perception.
 * Strong theoretical foundation in deep learning, robot control, probabilistic AI, and computer vision.
+* Academic Supervisor: Prof. Dr. Roland Siegwart.
 
 ### BSc in Electronic Engineering & Telecommunications 
 <a href="https://www.upc.edu/en" target="_blank"><img src="/img/logos/upc.png" alt="UPC Logo" style="height: 50px; margin-top: -20px; margin-bottom: -20px;"></a>
