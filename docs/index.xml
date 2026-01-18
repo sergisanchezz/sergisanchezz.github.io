@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Sergi Sanchez Orvay</title>
-    <link>https://sergisanchezz.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Sergi Sanchez Orvay</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sergisanchezz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Event-based Egomotion Estimation</title>
-      <link>https://sergisanchezz.github.io/projects/event-based-egomotion/</link>
+      <link>http://localhost:1313/projects/event-based-egomotion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sergisanchezz.github.io/projects/event-based-egomotion/</guid>
+      <guid>http://localhost:1313/projects/event-based-egomotion/</guid>
       <description>&lt;p&gt;Event cameras are bio-inspired sensors that detect logarithmic changes in pixel-level illumination, generating events asynchronously with microsecond resolution. This principle provides significant advantages over conventional cameras such as high dynamic range, low latency, and low power consumption, making them ideal for dynamic scenarios and challenging lighting conditions.&lt;/p&gt;&#xA;&lt;p&gt;This work addresses the egomotion estimation of an event camera using a geometric model-based approach and optimization techniques, avoiding the use of learning methods to make it applicable in resource-constrained environments and to deeply understand the problem. A detailed study of the underlying mathematical foundations guides the development of the proposed method. The proposed methodology consists of three main blocks: normal flow estimation, inverse depth estimation, and a robust linear solver. The normal flow estimation method is based on fitting local planes on surfaces of active events, while inverse depth is tackled using optimization techniques to align events at a reference timestamp. Finally, a robust linear solver based on the iterative RANSAC method is implemented, using the inverse depth and normal flow estimates to obtain the camera’s linear velocity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaussian Belief Propagation for Continuous-Time SLAM</title>
-      <link>https://sergisanchezz.github.io/projects/gbp-for-ctslam/</link>
+      <link>http://localhost:1313/projects/gbp-for-ctslam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sergisanchezz.github.io/projects/gbp-for-ctslam/</guid>
-      <description>&lt;p&gt;Continuous-Time SLAM (CTSLAM) has emerged as a compelling alternative to conventional discrete-time approaches, representing the robot trajectory as a smooth function over time rather than a sequence of fixed-interval poses. This continuous formulation naturally fuses asynchronous, multi-rate sensors without explicit interpolation or aggregation, preserves full measurement fidelity, and yields more consistent estimates. However, CTSLAM often incurs higher computational cost.&lt;/p&gt;&#xA;&lt;p&gt;Gaussian Belief Propagation (GBP) offers a distributed inference framework on factor graphs, in which variables and measurements exchange Gaussian messages to perform local, incremental updates. Unlike centralized Non-Linear Least Squares (NLLS) solvers (e.g. Ceres), GBP can exploit parallelism, detect converged nodes, and avoid repeated global relinearization, making it well suited for real-time, largescale, or collaborative SLAM applications.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/gbp-for-ctslam/</guid>
+      <description>&lt;p&gt;Continuous-Time SLAM (CTSLAM) has emerged as a compelling alternative to conventional discrete-time approaches, representing the robot trajectory as a smooth function over time rather than a sequence of fixed-interval poses. This continuous formulation naturally fuses asynchronous, multi-rate sensors without explicit interpolation or aggregation, preserves full measurement fidelity, and yields more consistent estimates. However, CTSLAM often incurs higher computational cost.&lt;/p&gt;&#xA;&lt;p&gt;Gaussian Belief Propagation (GBP) offers a distributed inference framework on factor graphs, in which variables and measurements exchange Gaussian messages to perform local, incremental updates. Unlike centralized Non-Linear Least Squares (NLLS) solvers (e.g. Ceres), GBP can exploit parallelism, detect converged nodes, and avoid repeated global relinearization, making it well suited for real-time, large-scale, or collaborative SLAM applications.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Towards Depth-Guided Self-Supervised World Models</title>
-      <link>https://sergisanchezz.github.io/projects/depth-guided-world-models/</link>
+      <link>http://localhost:1313/projects/depth-guided-world-models/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sergisanchezz.github.io/projects/depth-guided-world-models/</guid>
-      <description>&lt;p&gt;In recent years there have been significant advancements in the field of autonomous driving, led by improvements in perception, planning and control systems. Modern autonomous vehicles rely on complex sensor suites including cameras and LiDAR scanners to interpret their surroundings and make real-time decisions. A current major challenge lies in predicting future scenes, which is crucial to enable safe and reliable navigation.&lt;/p&gt;&#xA;&lt;p&gt;Recent research trends in autonomous driving explore the usage of world models to perform the prediction of such future scenes. These models take in sensor inputs from a number of frames in the past and infers the scene and trajectory of the ego vehicle for the next frames. Current state-ofthe- art (SOTA) world models leverage different representations of the scene to perform this task, leading to the following pipeline categories:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects/depth-guided-world-models/</guid>
+      <description>&lt;p&gt;In recent years there have been significant advancements in the field of autonomous driving, led by improvements in perception, planning and control systems. Modern autonomous vehicles rely on complex sensor suites including cameras and LiDAR scanners to interpret their surroundings and make real-time decisions. A current major challenge lies in predicting future scenes, which is crucial to enable safe and reliable navigation.&lt;/p&gt;&#xA;&lt;p&gt;Recent research trends in autonomous driving explore the usage of world models to perform the prediction of such future scenes. These models take in sensor inputs from a number of frames in the past and infers the scene and trajectory of the ego vehicle for the next frames. Current state-of-the-art (SOTA) world models leverage different representations of the scene to perform this task, leading to the following pipeline categories:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

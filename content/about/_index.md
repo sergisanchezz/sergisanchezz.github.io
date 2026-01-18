@@ -7,7 +7,7 @@ draft: false
 
 My name is **Sergi Sanchez Orvay**, and I am an aspiring robotics researcher dedicated to advancing the field of **embodied intelligence**. I am currently a Robotics Research Intern at **BMW Group's RoboTac Lab** in Munich, working under the supervision of **Prof. Dr. Mohsen Kaboli**, while pursuing my **MSc in Robotics, Systems and Control** at **ETH Zürich**. My academic foundation was built at **Universitat Politècnica de Catalunya**, where I completed my **BSc in Electronic Engineering and Telecommunications** and conducted research at the **IRI-CSIC (Institut de Robòtica i Informàtica Industrial)** on vision algorithms for **event-cameras**.
 
-My work and interests are focused on pioneering the next generation of **intelligent, general-purpose robots**. My approach in **embodied AI and robotic foundation models** emphasizes leveraging **representational learning** and **world models** to create systems that learn from interaction and generalize across complex **robotic manipulation** tasks. My ultimate goal is to drive the **efficiency** of this learning process, bringing it closer to how humans acquire knowledge about the world through experience.
+My work and interests are focused on pioneering the next generation of **intelligent, general-purpose robots**. My approach in **embodied AI and robotic foundation models** emphasizes leveraging **representation learning** and **world models** to create systems that learn from interaction and generalize across complex **robotic manipulation** tasks. My ultimate goal is to drive the **efficiency** of this learning process, bringing it closer to how humans acquire knowledge about the world through experience.
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 10px">
     <a href="/sergi_sanchez_cv.pdf" target="_blank">
@@ -38,14 +38,14 @@ My work and interests are focused on pioneering the next generation of **intelli
 
 *Munich, Germany* | *Sept. 2025 – Present*
 * Conducting research at the intersection of embodied intelligence, cross-modal perception, and robotic manipulation.
-* Focused on building robotic foundation models that unify tactile sensing, visual observations, and action sequences into a shared representation using transformers and variational inference in PyTorch.
-* Contributing in parallel to the PHASTRAC project (Horizon Europe), utilizing Oscillatory Neural Networks to advance efficient edge intelligence for robotics.
+* Focused on building robotic foundation models that unify tactile sensing, visual observations, and action sequences into a shared representation using transformers in PyTorch.
+* Contributing to the PHASTRAC project (Horizon Europe), utilizing Oscillatory Neural Networks to advance efficient edge intelligence for robotics.
 
 ### Student Researcher, ETH Zürich (Vision for Robotics Lab)
 <a href="https://ethz.ch/" target="_blank"><img src="/img/logos/eth.png" alt="ETH Logo" style="height: 20px; margin-top: -10px; margin-bottom: -10px;"></a>
 
 *Zürich, Switzerland* | *Feb. 2025 – July 2025*
-* Advanced continuous-time SLAM through Gaussian Belief Propagation (GBP).
+* Worked on the implementation of continuous-time SLAM through Gaussian Belief Propagation (GBP).
 * Focused on analyzing and resolving numerical instabilities of Hyperion, the first open-source continuous-time GBP solver.
 * Designed and implemented improved regularization strategies, including diagonal and Levenberg-Marquardt regularization, message damping, and spline tail-fixing, enabling stable on-line optimization.
 * These improvements yielded millimeter-level trajectory accuracy and runtime reductions of more than 100x compared to Ceres-based Non-Linear-Least-Squares solvers.
@@ -66,7 +66,7 @@ My work and interests are focused on pioneering the next generation of **intelli
 <a href="https://ethz.ch/" target="_blank"><img src="/img/logos/eth.png" alt="ETH Logo" style="height: 20px; margin-top: -10px; margin-bottom: -10px;"></a>
 
 **ETH Zürich** | *Sept. 2024 – Present*
-* Pursuing advanced training with a focus on embodied intelligence and robot learning & perception.
+* Focus on embodied intelligence and robot learning & perception.
 * Strong theoretical foundation in deep learning, robot control, probabilistic AI, and computer vision.
 
 ### BSc in Electronic Engineering & Telecommunications 

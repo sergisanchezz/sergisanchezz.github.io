@@ -10,7 +10,7 @@ Here you can find some of the research projects in which I have been working dur
 
 **Towards Depth-Guided Self-Supervised World Models**
     *(Feb. 2025 - Jul. 2025)*
-    Developed a self-supervised learning pipeline that incorporates geometric information via depth signals to enhance visual representations, which is crucial for future scene prediction in autonomous driving world models. This was part of the 3D Vision course taught by the Computer Vision and Geometry Group (CVG) at ETH Zürich.
+    Developed a self-supervised learning pipeline that distills geometric information via depth signals to enhance visual representations, which is crucial for future scene prediction in autonomous driving world models. This was part of the 3D Vision course taught by the Computer Vision and Geometry Group (CVG) at ETH Zürich.
     ([Read More](/projects/depth-guided-world-models/))
 
 **Gaussian Belief Propagation for Continuous-Time SLAM**
@@ -20,5 +20,5 @@ Here you can find some of the research projects in which I have been working dur
 
 **Event-based Egomotion Estimation**
     *(Feb. 2024 - Jul. 2024)*
-    Investigated and implemented a geometric model-based system for estimating the egomotion of an event camera, leveraging contrast maximization for depth and plane-fitting for normal flow. This was the project developed during my bachelor's thesis.
+    Designed and implemented a geometric model-based system for estimating the egomotion of an event camera, leveraging contrast maximization for depth and plane-fitting for normal flow. This was the project developed during my bachelor's thesis at IRI-CSIC (Institut de Robòtica i Informàtica Industrial).
     ([Read More](/projects/event-based-egomotion/))
