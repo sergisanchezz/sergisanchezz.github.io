@@ -37,31 +37,32 @@ My work and interests are focused on pioneering the next generation of **intelli
 </div>
 
 *Munich, Germany* | *Sept. 2025 – Present*
-Working at the RoboTac Lab in BMW Group under the supervision of Prof. Dr. Mohsen Kaboli focusing on Embodied Intelligence. 
 
-• Conducting research at the intersection of embodied intelligence, cross-modal perception and robotic manipulation. 
-• Building robotic foundation models that unify tactile sensing, visual observations and action sequences into a shared representation. 
-• Contributing to the PHASTRAC project (Horizon Europe), utilizing Oscillatory Neural Networks to advance efficient edge intelligence for robotics.
+Working at the RoboTac Lab in BMW Group under the supervision of Prof. Dr. Mohsen Kaboli focusing on Embodied Intelligence. 
+* Conducting research at the intersection of embodied intelligence, cross-modal perception and robotic manipulation.
+* Building robotic foundation models that unify tactile sensing, visual observations and action sequences into a shared representation. 
+* Contributing to the PHASTRAC project (Horizon Europe), utilizing Oscillatory Neural Networks to advance efficient edge intelligence for robotics.
 
 ### Student Researcher, ETH Zürich (Vision for Robotics Lab)
 <a href="https://ethz.ch/" target="_blank"><img src="/img/logos/eth.png" alt="ETH Logo" style="height: 20px; margin-top: -10px; margin-bottom: -10px;"></a>
 
 *Zürich, Switzerland* | *Feb. 2025 – July 2025*
-Working on Gaussian Belief Propagation (GBP) for Continuous-Time SLAM at the Vision for Robotics Lab (V4RL) supervised by Xinyi Li, William Talbot, Dr. David Hug, Dr. Cornelius von Einem and Prof. Dr. Margarita Chli.
 
-• Focused on analyzing and resolving the numerical instabilities of Hyperion (the first open‑source continuous‑time GBP solver) that prevented its deployability.
-• Designed and implemented improved regularization strategies, including diagonal and Levenberg‑Marquardt regularization, message damping and spline tail‑fixing, enabling stable online optimization.
-• Improvements yielded millimeter‑level trajectory accuracy, consistent convergence across synthetic and indoor sequences, and runtime reductions of more than 100× compared to Ceres‑based Non‑Linear‑Least‑Squares solvers, demonstrating the viability of GBP as an efficient continuous‑time state estimation framework.
+Working on Gaussian Belief Propagation (GBP) for Continuous-Time SLAM at the Vision for Robotics Lab (V4RL) supervised by Xinyi Li, William Talbot, Dr. David Hug, Dr. Cornelius von Einem and Prof. Dr. Margarita Chli.
+* Focused on analyzing and resolving the numerical instabilities of Hyperion (the first open‑source continuous‑time GBP solver) that prevented its deployability.
+* Designed and implemented improved regularization strategies, including diagonal and Levenberg‑Marquardt regularization, message damping and spline tail‑fixing, enabling stable online optimization.
+* Improvements yielded millimeter‑level trajectory accuracy, consistent convergence across synthetic and indoor sequences, and runtime reductions of more than 100× compared to Ceres‑based Non‑Linear‑Least‑Squares solvers, demonstrating the viability of GBP as an efficient continuous‑time state estimation framework.
 
 ### Robotics Research Intern, Institut de Robòtica i Informàtica Industrial (IRI-CSIC)
 <a href="https://www.iri.upc.edu/" target="_blank"><img src="/img/logos/iri.png" alt="IRI-CSIC Logo" style="height: 35px; margin-top: -10px; margin-bottom: -10px;"></a>
 
 *Barcelona, Spain* | *Sept. 2023 – July 2024*
+
 Research on lightweight, interpretable algorithms for motion and feature estimation using event cameras in resource-constrained aerial robotic platforms performing agile motion (accelerations of up to 40 rad/s² and 15 m/s²). Worked at the Mobile Robotics Lab under the supervision of Dr. Juan Andrade Cetto.
 
-• Developed and implemented methods for event‑based optical flow estimation using plane‑fitting techniques on surfaces of active events.
-• Implemented a state‑of‑the‑art robust corner detection algorithm in Python.
-• Designed a geometric model‑based pipeline for egomotion estimation, combining normal flow, inverse depth optimization and RANSAC‑based motion recovery for my Bachelor's Thesis.
+* Developed and implemented methods for event‑based optical flow estimation using plane‑fitting techniques on surfaces of active events.
+* Implemented a state‑of‑the‑art robust corner detection algorithm in Python.
+* Designed a geometric model‑based pipeline for egomotion estimation, combining normal flow, inverse depth optimization and RANSAC‑based motion recovery for my Bachelor's Thesis.
 
 ---
 
@@ -71,22 +72,22 @@ Research on lightweight, interpretable algorithms for motion and feature estimat
 <a href="https://ethz.ch/" target="_blank"><img src="/img/logos/eth.png" alt="ETH Logo" style="height: 20px; margin-top: -10px; margin-bottom: -10px;"></a>
 
 **ETH Zürich** | *Sept. 2024 – Present*
-Pursuing advanced training in robotics with a focus on embodied intelligence and robot learning & perception under the academic supervision of Prof. Dr. Roland Siegwart.
 
-• Strong theoretical foundation in deep learning, robot control, probabilistic AI and computer vision, combined with extensive hands‑on project experience.
-• Semester Project: *Gaussian Belief Propagation for Continuous‑Time SLAM* with the Vision for Robotics Lab.
-• Research Project: *Towards Depth‑Guided Self‑Supervised World Models* with the Computer Vision and Geometry Group.
-• Internship at BMW Group (RoboTac Lab) conducting research in cross‑modal perception and tactile intelligence.
+Pursuing advanced training in robotics with a focus on embodied intelligence and robot learning & perception under the academic supervision of Prof. Dr. Roland Siegwart.
+* Strong theoretical foundation in deep learning, robot control, probabilistic AI and computer vision, combined with extensive hands‑on project experience.
+* Semester Project: *Gaussian Belief Propagation for Continuous‑Time SLAM* with the Vision for Robotics Lab.
+* Research Project: *Towards Depth‑Guided Self‑Supervised World Models* with the Computer Vision and Geometry Group.
+* Internship at BMW Group (RoboTac Lab) conducting research in cross‑modal perception and tactile intelligence.
 
 ### BSc in Electronic Engineering & Telecommunications 
 <a href="https://www.upc.edu/en" target="_blank"><img src="/img/logos/upc.png" alt="UPC Logo" style="height: 50px; margin-top: -20px; margin-bottom: -20px;"></a>
 
 **Universitat Politècnica de Catalunya** | *Sept. 2020 – July 2024*
-Obtained fundamental foundations in mathematics, physics, information theory, electrical engineering and control theory.
 
-• Ranked 1st of the class (GPA: 9/10) receiving the Best Academic Transcript Award.
-• Honors in +30% of the courses.
-• Research internship at IRI‑CSIC working on vision algorithms for event‑cameras that lead to my bachelor’s thesis: *Event‑based egomotion estimation* (Grade: 9.8/10).
+Obtained fundamental foundations in mathematics, physics, information theory, electrical engineering and control theory.
+* Ranked 1st of the class (GPA: 9/10) receiving the Best Academic Transcript Award.
+* Honors in +30% of the courses.
+* Research internship at IRI‑CSIC working on vision algorithms for event‑cameras that lead to my bachelor’s thesis: *Event‑based egomotion estimation* (Grade: 9.8/10).
 
 ---
 
